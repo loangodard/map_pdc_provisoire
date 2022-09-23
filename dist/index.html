@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Points de collecte">
+    <title>Points de collecte</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="left-column">
+            <img src="logo.png" id="logo"/>
+            <h1 style="margin-top:5px">Points de collectes</h1>
+
+            <div class="collect-point-list-container">
+                <ul class="collect-point-list" id="collect-point-list">
+                    <div id="loading">
+                        <div class="loader"></div>
+                    </div>
+                    <!-- <li class="collect-point-container">
+                        <div>
+                            <h2>Biocoop Passage Démogé</h2>
+                            <p>27 rue de bayeux, 14000 Caen</p>
+                            <div class="collect-point-crats-data-container">
+                                <ul>
+                                    <li>Caisses pleines : <b>12</b></li>
+                                    <li>Taux de saturation : <b>90%</b></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li> -->
+                </ul>
+                <div class="empty"></div>
+            </div>
+        </div>
+        <div class="right-column">
+            <div id="map"></div>
+        </div>
+    </div>
+</body>
+<script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAodjMZ2aL78Lm2LhIPRgfhXskaQ6MiUdw"
+    defer></script>
+<script type="module" src="index.js"></script>
+
+</html>

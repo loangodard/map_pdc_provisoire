@@ -1,0 +1,1 @@
+{"version":3,"file":"fillColor.js","sourceRoot":"","sources":["../../src/Utils/fillColor.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,MAAM,SAAS,GAAG,CAAC,cAAsB,EAAU,EAAE;IACxD,IAAI,cAAc,GAAG,EAAE,EAAE;QACrB,OAAO,SAAS,CAAC;KACpB;SAAM,IAAI,cAAc,GAAG,EAAE,EAAE;QAC5B,OAAO,SAAS,CAAC;KACpB;SAAM;QACH,OAAO,SAAS,CAAC;KACpB;AACL,CAAC,CAAC"}
