@@ -18,4 +18,11 @@ export const populateMap = (map: google.maps.Map, collectePoints: CollectPoint[]
             // lastOpenedInfoWindow = infoWindow;
         });
     });
+
+    // zoom map to fit all markers
+    const bounds = new google.maps.LatLngBounds();
+    collectePoints.forEach((collectePoint) => {
+        bounds.extend(collectePoint.geoLocation);
+    });
+    map.fitBounds(bounds);
 }
