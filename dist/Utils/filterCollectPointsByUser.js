@@ -1,11 +1,11 @@
 const transporteurs = [
     {
         nom: "toutenvelo",
-        ids: [1, 35, 38, 41, 47, 49, 50, 52, 53, 54, 55, 46],
+        ids: [1, 35, 38, 41, 47, 49, 50, 52, 53, 54, 55],
     },
     {
         nom: "transcom",
-        ids: [34, 36, 37, 39, 40, 42, 56],
+        ids: [34, 36, 37, 39, 40, 42, 46, 56],
     }
 ];
 export const filterCollectPointsByUser = (collectPoints) => {
