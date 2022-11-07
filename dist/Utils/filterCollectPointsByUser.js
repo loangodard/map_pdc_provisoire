@@ -5,7 +5,7 @@ const transporteurs = [
     },
     {
         nom: "transcom",
-        ids: [34, 36, 37, 39, 40, 42, 46, 56],
+        ids: [34, 36, 37, 39, 40, 42, 46, 56, 61],
     }
 ];
 export const filterCollectPointsByUser = (collectPoints) => {
