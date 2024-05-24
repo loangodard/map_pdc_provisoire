@@ -3,7 +3,7 @@ import { CollectPoint } from "../Classes/CollectPoint/CollectPoint";
 const transporteurs = [
     {
         nom: "toutenvelo",
-        ids: [1, 35, 38, 41, 47, 49, 50, 52, 53, 54, 55, 61, 67, 72],
+        ids: [1, 35, 38, 41, 47, 49, 50, 52, 53, 54, 55, 61, 67, 72,3],
     },
     {
         nom: "transcom",
